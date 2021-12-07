@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin-top: 10em;
+    padding: .5em;
+    border: grey dotted 5px;
+    text-align: center;
+    
+
+}
+section{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+
+}
+.contenedor-divs{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+}
+.div{
+    border: 1px solid rgb(223, 193, 250);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 1em;
+}
+.div:hover{
+    background-color: rgb(253, 205, 205);
+    transition: all .5s;
+}
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    width: 40%;
+    cursor: pointer;
+}
+#piedra{
+    position: relative;
+    left: 1.5em;
+    height: 100px;
+}
+#papel{
+    position: relative;
+    top: 2em;
+    left: 2em;
+    height: 60px;
+}
+#tijera{
+    position: relative;
+    top: 0em;
+    left: 2em;
+    height: 100px;
+}
+.caja{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px dotted pink;
+    width: 500px;
+    height: 500px;
+    padding-bottom: 1em;
+}
+#usuario{
+    background-color: rgb(243, 243, 187);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#pc{
+    background-color: rgb(187, 243, 201);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#resultado{
+    background-color: rgb(187, 213, 243);
+    border-radius: 50%;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{ 
+    margin-top: 1em;
+}
